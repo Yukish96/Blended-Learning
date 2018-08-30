@@ -7,17 +7,17 @@
 /* Títulos */
 @font-face{
   font-family: "Avenir";
-  src: url("fonts/AveniBla")
+  src: url("../fonts/AveniBla")
 }
 /* subtítulos */
 @font-face{
   font-family: "Baskerville";
-  src: url("fonts/Baskerville Old Face")
+  src: url("../fonts/Baskerville Old Face")
 }
 /* cuerpo de texto y menú */
 @font-face{
   font-family: "ProximaNova-Reg";
-  src: url("fonts/ProximaNova-Reg.otf")
+  src: url("../fonts/ProximaNova-Reg.otf")
 }
 
 h1{
