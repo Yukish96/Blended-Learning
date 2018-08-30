@@ -1,3 +1,7 @@
+/* *{
+    background: red;
+} */
+
 .header{
     border: 1px solid black;
     height: 100px;
@@ -13,23 +17,23 @@
 }
 
 .cuerpo{
-    height: 600px;
+    height: 800px;
     border: 1px solid black;
+    padding: 0 10px;
 }
 
 .tarjetas{
-    padding: 150px 0;
+    padding: 50px 0;
 }
 
-.footer{
+#footer{
     border: 1px solid black;
     height: 100px;
 
 }
 
-.sponsor{
+#sponsor{
     list-style: none;
-    display: flex;
     border: 1px solid black;
 }
 
