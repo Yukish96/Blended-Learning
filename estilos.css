@@ -26,28 +26,33 @@
     padding: 50px 0;
 }
 
-#footer{
-    border: 1px solid black;
+.flex container{
+    /* border: 1px solid black;
     height: 100px;
+    padding: 10px 10px; */
+    display: flex;
 
 }
 
-#sponsor{
+.sponsor{
     list-style: none;
     border: 1px solid black;
+    margin: 10px 10px;
+    /* justify-content: center; */
+    align-items: center;
 }
 
-#google{
+.google{
     height: 80px;
     width: 70px;
 }
 
-#javascript{
+.javascript{
     height: 80px;
     width: 70px;
 }
 
-#youtube{
+.youtube{
     height: 80px;
     width: 70px;
 }
