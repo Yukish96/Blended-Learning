@@ -1,0 +1,32 @@
+*{
+    /*background: red*/
+}
+
+.cat{
+  display:flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+
+/* .soft {
+  border: 2px solid red;
+  display:flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-around;
+  
+  
+}
+
+.hard {
+  border: 2px solid black;
+  display:flex;
+  flex-direction: column;
+  align-content: center;
+} */
+
+.tit {
+  border: 1px solid purple;
+  background: white;
+}
