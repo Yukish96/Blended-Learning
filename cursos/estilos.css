@@ -35,8 +35,7 @@ h2{
 h3{
   font-family: Baskerville;
   font-weight: 600;
-  font-size: 23px;
-  color: #fc4b42
+  font-size: 20px;
 }
 
 p{
@@ -116,7 +115,7 @@ ul{
 }
 
 .container2{
-  height: 312px;
+  height: 350px;
   padding-top: 55px;
   padding-left: 50px;
   padding-right: 50px;
@@ -127,5 +126,42 @@ ul{
   height: 17px;
 }
 
-.text-cont2{
+.container3{
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 1px solid red;
+  padding: 0px;
+}
+
+.container3-izq{
+  width: 100%;
+  border: 1px solid blue;
+  padding: 0px;
+  justify-content: flex-start;
+}
+
+.container3-der{
+  width: 100%;
+  border: 1px solid green;
+  padding: 0px;
+}
+
+.collapse-container{
+  height: 700px;
+  padding-top: 55px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.temarioheader-backround{
+  margin: 0px;
+  width: 1087px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border: 2px solid #fc5642;
+  background: #fc5642
+  /* background: linear-gradient(top, rgb(252, 107, 69), rgb(252, 67, 70))  */
+
 }
