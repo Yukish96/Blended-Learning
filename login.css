@@ -4,12 +4,10 @@
   flex-direction: column;
   align-content: center;
   justify-content: center;
-  padding: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .titulo{
   border: 1px solid green;
   text-align: center;
-}
-.registro{
-  border: 1px solid red;
 }
