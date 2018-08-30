@@ -11,17 +11,17 @@
 /* Títulos */
 @font-face{
   font-family: "Avenir";
-  src: url("../fonts/AveniBla")
+  src: url("AveniBla")
 }
 /* subtítulos */
 @font-face{
   font-family: "Baskerville";
-  src: url("../fonts/Baskerville Old Face")
+  src: url("Baskerville Old Face")
 }
 /* cuerpo de texto y menú */
 @font-face{
   font-family: "ProximaNova-Reg";
-  src: url("../fonts/ProximaNova-Reg.otf")
+  src: url("ProximaNova-Reg.otf")
 }
 
 h1{
