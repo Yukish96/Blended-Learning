@@ -1,0 +1,67 @@
+/* backgrounds */
+/* #f2f4ea hueso
+#ceb1a5 palo de rosa
+#febe3f amarillo
+#fc5642 + #fc6b45 colar degradado radial */
+
+/* Títulos */
+@font-face{
+  font-family: "Avenir";
+  src: url("fonts/AveniBla")
+}
+/* subtítulos */
+@font-face{
+  font-family: "Baskerville";
+  src: url("fonts/Baskerville Old Face")
+}
+/* cuerpo de texto y menú */
+@font-face{
+  font-family: "ProximaNova-Reg";
+  src: url("fonts/ProximaNova-Reg.otf")
+}
+
+h1{
+  font-family: Avenir;
+  font-weight: bold;
+  font-size: 37px
+}
+
+h2{
+  font-family: Baskerville;
+  font-weight: 600;
+  font-size: 23px;
+  color: #fc4b42
+}
+
+p{
+  font-family: ProximaNova-Reg;
+  font-size: 17px;
+  color: #666663
+}
+
+/* .liderazgo-img{
+  background-image: url(links/liderazgo.jpg);
+  width: 100px;
+} */
+
+li{
+    padding-right: 3px;
+}
+
+.menu{
+    display: block;
+    justify-content: flex-end;
+    font-family: ProximaNova-Reg;
+    font-size: 16px;
+    color: #666663;
+}
+.course-carousel{
+  height: 300px;
+  font-size: 60px;
+}
+
+.less1-block{
+  height: 312px;
+  background-color: #f2f4ea;
+  padding-top: 55px;
+}
