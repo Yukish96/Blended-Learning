@@ -26,11 +26,11 @@
     padding: 50px 0;
 }
 
-.flex container{
+.flex.container{
     /* border: 1px solid black;
     height: 100px;
     padding: 10px 10px; */
-    display: flex;
+    /* display: flex; */
 
 }
 
@@ -40,6 +40,16 @@
     margin: 10px 10px;
     /* justify-content: center; */
     align-items: center;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.papito{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 400px;
 }
 
 .google{
