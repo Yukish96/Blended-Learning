@@ -16,6 +16,12 @@
     margin: 0 85% 0 0;
 } */
 
+.background{
+    background-image: url("fondo.jpg");
+    background-size: cover; 
+    
+}
+
 /* Títulos */
 @font-face{
     font-family: "Avenir";
@@ -111,6 +117,50 @@
 
 .tarjetas{
     padding: 50px 0;
+}
+
+.hard{
+    background-color: rgba(0, 0, 0, 0.05);
+    /* font-family: "ProximaNova-Reg"; */
+}
+
+.soft{
+    background-color: rgba(0, 0, 0, 0.05);
+    font-style: 
+    /* font-family: "ProximaNova-Reg"; */
+}
+
+.hard_title{
+    font-family: "Avenir";
+    src: url("AveniBla");
+}
+
+.soft_title{
+    font-family: "Avenir";
+    src: url("AveniBla");
+}
+
+.hard_text{
+    font-family: "ProximaNova-Reg";
+    src: url("ProximaNova-Reg.otf");
+    font-style: black;
+    
+}
+
+soft_text{
+    font-family: "ProximaNova-Reg";
+    src: url("ProximaNova-Reg.otf");
+    font-style: black;
+}
+
+hard_button{
+    font-family: "ProximaNova-Reg";
+    src: url("ProximaNova-Reg.otf");
+}
+
+soft_button{
+    font-family: "ProximaNova-Reg";
+    src: url("ProximaNova-Reg.otf");
 }
 
 .flex.container{
