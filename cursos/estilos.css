@@ -40,12 +40,14 @@ h3{
 
 p{
   font-family: ProximaNova-Reg;
+
   font-size: 17px;
   color: #60686c
 }
 
 ul{
   list-style: none;
+
   padding: 0px;
 }
 
@@ -63,6 +65,7 @@ ul{
 
 .footer{
   height: 92px;
+
   background-color:rgba(41, 63, 79);
   color: #bfbfbf
 }
@@ -117,6 +120,7 @@ ul{
 }
 
 .container2{
+
   font-size: 17px;
   height: 200px;
   margin-bottom: 55px;
