@@ -17,9 +17,13 @@
 } */
 
 .background{
-    background-image: url("fondo.jpg");
+    background-image: url("fondo.jpeg");
     background-size: cover; 
     
+}
+
+.cursos{
+    padding: 200px 0;
 }
 
 /* Títulos */
@@ -111,7 +115,7 @@
 
 .cuerpo{
     height: 800px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 0 10px;
 }
 
@@ -121,13 +125,13 @@
 
 .hard{
     background-color: rgba(0, 0, 0, 0.05);
-    /* font-family: "ProximaNova-Reg"; */
+    font-family: "ProximaNova-Reg";
 }
 
 .soft{
     background-color: rgba(0, 0, 0, 0.05);
-    font-style: 
-    /* font-family: "ProximaNova-Reg"; */
+    /* font-style:  */
+    font-family: "ProximaNova-Reg";
 }
 
 .hard_title{
@@ -143,26 +147,36 @@
 .hard_text{
     font-family: "ProximaNova-Reg";
     src: url("ProximaNova-Reg.otf");
-    font-style: black;
+    /* font-style: black; */
     
 }
 
-soft_text{
+.soft_text{
     font-family: "ProximaNova-Reg";
     src: url("ProximaNova-Reg.otf");
-    font-style: black;
+    /* font-style: black; */
 }
 
-hard_button{
+.hard_button{
     font-family: "ProximaNova-Reg";
     src: url("ProximaNova-Reg.otf");
+    background-color: #fc4b42;
+    border: 1px #fc4b42;
 }
 
-soft_button{
+.soft_button{
     font-family: "ProximaNova-Reg";
     src: url("ProximaNova-Reg.otf");
+    background-color: #fc4b42;
+    border: 1px #fc4b42;
 }
 
+.inscribeme{
+    font-family: "ProximaNova-Reg";
+    src: url("ProximaNova-Reg.otf");
+    background-color: #fc4b42;
+    border: 1px #fc4b42;
+}
 .flex.container{
     /* border: 1px solid black;
     height: 100px;
