@@ -3,18 +3,18 @@
 
 /* Títulos */
 @font-face{
-  font-family:"Avenir";
-  src: url("AveniBla")
+  font-family: "Avenir";
+  src: url("../fonts/AveniBla")
 }
 /* subtítulos */
 @font-face{
-  font-family:"Baskerville";
-  src: url("Baskerville Old Face")
+  font-family: "Baskerville";
+  src: url("../fonts/Baskerville Old Face")
 }
 /* cuerpo de texto y menú */
 @font-face{
   font-family: "ProximaNova-Reg";
-  src: url("ProximaNova-Reg.otf")
+  src: url("../fonts/ProximaNova-Reg.otf")
 }
 
 h1{
@@ -35,14 +35,9 @@ h3{
   font-size: 20px;
 }
 
-h5 {
-  font-family: Avenir;
-  font-weight: bold;
-}
-
 p{
   font-family: ProximaNova-Reg;
-  font-size: 16px;
+  font-size: 19px;
   color: #60686c
 }
 
@@ -173,6 +168,12 @@ ul{
   display:flex;
   justify-content: center;
   align-content: space-around;
+}
+
+h5 {
+  font-family: "Avenir";
+  font-weight: "bold";
+
 }
 
 .btncat {
