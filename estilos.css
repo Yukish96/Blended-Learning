@@ -22,9 +22,10 @@
     
 }
 
-.cursos{
-    padding: 200px 0;
-}
+.create{
+    height: 400px;
+    width: 100%;
+ } 
 
 /* Títulos */
 @font-face{
