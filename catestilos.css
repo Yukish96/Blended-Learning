@@ -196,3 +196,19 @@ h5 {
 .tit {
   background: white;
 }
+
+.btnpay{
+  padding-top: 10px;
+}
+
+.visible {
+  visibility: visible;
+}
+.invisible {
+  visibility: hidden;
+}
+
+.noso {
+  display: flex;
+  justify-content: space-around;
+}
