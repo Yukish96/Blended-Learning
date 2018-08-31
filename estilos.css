@@ -16,6 +16,10 @@
     margin: 0 85% 0 0;
 } */
 
+/* .carrusel{
+    height: 150px;
+} */
+
 .background{
     background-image: url("fondo.jpeg");
     background-size: cover; 
@@ -100,7 +104,7 @@
     color: #bfbfbf;
     padding-right: 20px;
   }
-  
+  ba
   .loginbutton{
     margin-right: 10px;
     /* background-color: #b9b7b4; */
@@ -117,7 +121,7 @@
 .cuerpo{
     height: 800px;
     /* border: 1px solid black; */
-    padding: 0 10px;
+    /* padding: 500px 10px; */
 }
 
 .tarjetas{
@@ -185,7 +189,7 @@
     /* display: flex; */
 
 /* } */ */
-mi
+
 .sponsor{
     list-style: none;
     border: 1px solid black;
@@ -218,4 +222,5 @@ mi
     height: 80px;
     width: 70px;
 }
+
 
