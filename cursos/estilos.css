@@ -175,7 +175,7 @@ ul{
   margin-bottom: 30px;
 }
 
-.temarioheader-backround{
+.temarioheader-background{
   margin: 0px;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
@@ -189,25 +189,33 @@ ul{
 }
 
 .backgorund-duracion{
-  height:70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height:50px;
   background-color: #ffe3e1;
 }
 
 .text-duracion{
   color: #fd8268;
-  text-align: center;
-  border: 1px solid red;
-  padding-left: 20px;
-  justify-content: center;
+  padding-left: 32px;
+  margin: 0px;
+  /* border: 1px solid red; */
 }
 
 .collapse-text{
   font-size: 22px;
 }
 
-.btn-link{
-  text-decoration: none ¡important!;
+.paragraph-card-body{
+  padding: 12px;
+  text-align: justify;
 }
+
+/* .btn-link{
+  text-decoration: none ¡important!;
+  padding-left: 0px;
+} */
 
 .container5{
   height: 400px;
