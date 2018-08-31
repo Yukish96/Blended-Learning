@@ -1,0 +1,135 @@
+.contenedor{
+  border: 1px none;
+  height: 530px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+/* Títulos */
+@font-face{
+  font-family: "Avenir";
+  src: url("AveniBla")
+}
+/* subtítulos */
+@font-face{
+  font-family: "Baskerville";
+  src: url("Baskerville Old Face")
+}
+/* cuerpo de texto y menú */
+@font-face{
+  font-family: "ProximaNova-Reg";
+  src: url("ProximaNova-Reg.otf")
+}
+
+h1{
+  font-family: Avenir;
+  font-weight: bold;
+}
+
+h2{
+  font-family: Avenir;
+  font-weight: bold;
+  font-size: 35px;
+  color: rgb(41, 63, 79)
+}
+
+h3{
+  font-family: Baskerville;
+  font-weight: 600;
+  font-size: 23px;
+  color: #fc4b42
+}
+
+p{
+  font-family: ProximaNova-Reg;
+  font-size: 19px;
+  color: #60686c
+}
+
+ul{
+  list-style: none;
+}
+
+.limenu{
+    padding-right: 20px;
+}
+
+.menu{
+  display: block;
+  justify-content: flex-end;
+  font-family: ProximaNova-Reg;
+  font-size: 16px;
+  color: #bfbfbf;
+}
+
+.footer{
+  height: 92px;
+  background-color:rgb(41, 63, 79);
+  color: #bfbfbf
+}
+
+.footer-txtbox{
+  display: block;
+  justify-content: center;
+}
+
+.footertxt{
+  font-family: ProximaNova-Reg;
+  font-size: 16px;
+  color: #bfbfbf;
+  padding-right: 20px;
+}
+
+.loginbutton{
+  margin-right: 10px;
+  /* background-color: #b9b7b4; */
+  border: 1px solid #b9b7b4;
+  width: 100px;
+}
+
+.registratebutton{
+  background-color: #fc4346;
+  border: 1px solid #fc4346;
+  width: 100px;
+}
+
+.carousel-backround-color{
+  background-color: #ceb1a5;
+}
+
+.course-carousel{
+  height: 280px;
+  font-size: 60px;
+}
+
+.titulo{
+  color: black;
+  padding-top: 90px;
+  display: block;
+}
+
+.icons-backround{
+  margin-top: 55px;
+  padding-top: 40px;
+  height: 150px;
+  display: block;
+  background-color: #f4f6f8
+}
+
+.container2{
+  height: 312px;
+  padding-top: 55px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.img-logo-icon{
+  width: 17px;
+  height: 17px;
+}
+
+.text-cont2{
+}
