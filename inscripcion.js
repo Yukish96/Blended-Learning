@@ -1,8 +1,8 @@
-// let nombre = document.getElementById("nombreAlumno")
+let nombre = document.getElementById("nombreAlumno")
 let correo = document.getElementById("correoAlumno")
 let password = document.getElementById("passAlumno")
 let password2 = document.getElementById("pass2Alumno")
-// let pais = document.getElementById("paisAlumno")
+let pais = document.getElementById("paisAlumno")
 let inscribir = document.getElementById("inscribeme")
 let checado = document.getElementById("exampleCheck1")
 
