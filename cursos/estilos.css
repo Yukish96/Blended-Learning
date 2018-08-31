@@ -40,12 +40,13 @@ h3{
 
 p{
   font-family: ProximaNova-Reg;
-  font-size: 19px;
+  font-size: 17px;
   color: #60686c
 }
 
 ul{
   list-style: none;
+  padding: 0px;
 }
 
 .limenu{
@@ -62,7 +63,7 @@ ul{
 
 .footer{
   height: 92px;
-  background-color:rgb(41, 63, 79);
+  background-color:rgba(41, 63, 79);
   color: #bfbfbf
 }
 
@@ -108,6 +109,7 @@ ul{
 
 .icons-backround{
   margin-top: 55px;
+  margin-bottom: 55px;
   padding-top: 40px;
   height: 150px;
   display: block;
@@ -115,10 +117,22 @@ ul{
 }
 
 .container2{
-  height: 350px;
-  padding-top: 55px;
-  padding-left: 50px;
-  padding-right: 50px;
+  font-size: 17px;
+  height: 200px;
+  margin-bottom: 55px;
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+  /* border: 1px solid red; */
+}
+
+.continer2-text{
+  width: 100%;
+  padding: 0px;
+  text-align: left;
+  margin-right: 5px;
+  color: #60686c
+  /* border: 1px solid blue; */
 }
 
 .img-logo-icon{
@@ -127,41 +141,93 @@ ul{
 }
 
 .container3{
-  height: 300px;
+  font-size: 17px;
+  height: 280px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  border: 1px solid red;
   padding: 0px;
+  margin-bottom: 30px;
+  color: #60686c
+  /* border: 1px solid red; */
 }
 
 .container3-izq{
   width: 100%;
-  border: 1px solid blue;
   padding: 0px;
-  justify-content: flex-start;
+  text-align: left;
+  margin-right: 5px;
+  /* border: 1px solid blue; */
 }
 
 .container3-der{
   width: 100%;
-  border: 1px solid green;
   padding: 0px;
+  margin-left: 5px;
+  /* border: 1px solid green; */
 }
 
 .collapse-container{
-  height: 700px;
+  height: 800px;
   padding-top: 55px;
   padding-left: 50px;
   padding-right: 50px;
+  margin-bottom: 30px;
 }
 
 .temarioheader-backround{
   margin: 0px;
-  width: 1087px;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
   border: 2px solid #fc5642;
   background: #fc5642
   /* background: linear-gradient(top, rgb(252, 107, 69), rgb(252, 67, 70))  */
+}
+.temariobutton{
+  border: 1px solid: white;
+  color: white;
+}
 
+.backgorund-duracion{
+  height:70px;
+  background-color: #ffe3e1;
+}
+
+.text-duracion{
+  color: #fd8268;
+  text-align: center;
+  border: 1px solid red;
+  padding-left: 20px;
+  justify-content: center;
+}
+
+.collapse-text{
+  font-size: 22px;
+}
+
+.btn-link{
+  text-decoration: none ¡important!;
+}
+
+.container5{
+  height: 400px;
+  background-color: #f4f6f8
+}
+
+.container5-textleft{
+  width: 100%;
+  text-align: left;
+  align-items: center;
+  margin-top: 55px;
+}
+
+.img-mentor{
+  padding-top: 35px;
+}
+
+.container5-textright{
+  width: 100%;
+  text-align: left;
+  align-items: center;
+  margin-top: 110px;
 }
