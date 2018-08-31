@@ -1,32 +1,197 @@
-*{
-    /*background: red*/
+/*Estilos genéricos del proyecto*/ 
+
+
+/* Títulos */
+@font-face{
+  font-family:"Avenir";
+  src: url("AveniBla")
+}
+/* subtítulos */
+@font-face{
+  font-family:"Baskerville";
+  src: url("Baskerville Old Face")
+}
+/* cuerpo de texto y menú */
+@font-face{
+  font-family: "ProximaNova-Reg";
+  src: url("ProximaNova-Reg.otf")
 }
 
+h1{
+  font-family: Avenir;
+  font-weight: bold;
+}
+
+h2{
+  font-family: Avenir;
+  font-weight: bold;
+  font-size: 35px;
+  color: rgb(41, 63, 79)
+}
+
+h3{
+  font-family: Baskerville;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+h5 {
+  font-family: Avenir;
+  font-weight: bold;
+}
+
+p{
+  font-family: ProximaNova-Reg;
+  font-size: 16px;
+  color: #60686c
+}
+
+ul{
+  list-style: none;
+}
+
+.limenu{
+    padding-right: 20px;
+}
+
+.menu{
+  display: block;
+  justify-content: flex-end;
+  font-family: ProximaNova-Reg;
+  font-size: 16px;
+  color: #bfbfbf;
+}
+
+.footer{
+  height: 92px;
+  background-color:rgb(41, 63, 79);
+  color: #bfbfbf
+}
+
+.footer-txtbox{
+  display: block;
+  justify-content: center;
+}
+
+.footertxt{
+  font-family: ProximaNova-Reg;
+  font-size: 16px;
+  color: #bfbfbf;
+  padding-right: 20px;
+}
+
+.loginbutton{
+  margin-right: 10px;
+  /* background-color: #b9b7b4; */
+  border: 1px solid #b9b7b4;
+  width: 100px;
+}
+
+.registratebutton{
+  background-color: #fc4346;
+  border: 1px solid #fc4346;
+  width: 100px;
+}
+
+.carousel-backround-color{
+  background-color: #ceb1a5;
+}
+
+.course-carousel{
+  height: 280px;
+  font-size: 60px;
+}
+
+.titulo{
+  color: white;
+  padding-top: 90px;
+  display: block;
+}
+
+.icons-backround{
+  margin-top: 55px;
+  padding-top: 40px;
+  height: 150px;
+  display: block;
+  background-color: #f4f6f8
+}
+
+.container2{
+  height: 350px;
+  padding-top: 55px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.img-logo-icon{
+  width: 17px;
+  height: 17px;
+}
+
+.container3{
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 1px solid red;
+  padding: 0px;
+}
+
+.container3-izq{
+  width: 100%;
+  border: 1px solid blue;
+  padding: 0px;
+  justify-content: flex-start;
+}
+
+.container3-der{
+  width: 100%;
+  border: 1px solid green;
+  padding: 0px;
+}
+
+.collapse-container{
+  height: 700px;
+  padding-top: 55px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.temarioheader-backround{
+  margin: 0px;
+  width: 1087px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border: 2px solid #fc5642;
+  background: #fc5642
+  /* background: linear-gradient(top, rgb(252, 107, 69), rgb(252, 67, 70))  */
+
+}
+
+/*Estilos específicos de esta página*/
 .cat{
   display:flex;
-  justify-content: space-between;
-  align-content: center;
+  justify-content: center;
+  align-content: space-around;
 }
 
+.btncat {
+  background-color: #fc4346;
+  border: 1px solid #fc4346;
+}
 
-/* .soft {
-  border: 2px solid red;
-  display:flex;
-  flex-direction: column;
-  align-content: center;
+.cont {
+  display: flex;
+  justify-content: center;
   justify-content: space-around;
-  
-  
+  align-content: space-around;
 }
 
-.hard {
-  border: 2px solid black;
-  display:flex;
-  flex-direction: column;
-  align-content: center;
-} */
+.curso {
+  margin-bottom: 10%;
+
+}
 
 .tit {
-  border: 1px solid purple;
   background: white;
 }

@@ -14,99 +14,166 @@
     <title>Blended Learning</title>
   </head>
   <body>
-    <nav class="navbar navbar-light bg-light">
-  <a class="navbar-brand" href="#">Blended Learning</a>
-</nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <a class="navbar-brand" href="#">
+        <img src="logo-blended.png"alt="">
+      </a>
+      <div class="menu collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="limenu nav-item active">
+            <a class="nav-link" href="#">Cursos <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="limenu nav-item">
+            <a class="nav-link" href="#">Nosotros</a>
+          </li>
+          <button type="button" class="loginbutton btn btn-outline-secondary">Login</button>
+          <button type="button" class="registratebutton btn btn-secondary">Regístrate</button>
+        </ul>
+      </div>
+    </nav>
 
 <div class="jumbotron jumbotron-fluid tit">
   <div class="container">
-    <h1 class="display-4">Cursos y clases</h1>
+    <h1 class="display-4">Cursos con clase</h1>
     <p class="lead">Encuentra la habilidad que necesitas para ser mejor persona.</p>
     <div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Explora por tipo de habilidad.
+  <button class="btn btn-secondary dropdown-toggle btncat" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Explora por tipo de habilidad
   </button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="catduras.html">Hardskills</a>
-    <a class="dropdown-item" href="catblandas.html">Softskills</a>
-    <a class="dropdown-item" href="catalogo.html">Todos los tipos</a>
+    <a class="dropdown-item" href="">Hardskills</a>
+    <a class="dropdown-item" href="">Softskills</a>
+    <a class="dropdown-item" href="">Todos los tipos</a>
   </div>
 </div>
   </div>
 </div>
 
     <section class="cat d-flex col-12">
-      <div class="cont d-flex row space-between">
+      <div class="cont d-flex row">
 
-          <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+          <div class="card curso" style="width: 18rem;">
+              <img class="card-img-top" src="emprende.png" alt="iconoemprende">
               <div class="card-body">
                 <h5 class="card-title">Emprendimiento</h5>
-                <p class="card-text">Some quick example text to build on the.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h6 class="card-subtitle mb-2 text-muted">Precio $300.00 MXN</h6>
+                <p class="card-text">Aprende la diferencia entre atender un changarro y crecer tu negocio. Es mucho trabajo duro, pero vale la pena.</p>
+                <a href="#" class="btn btn-primary">¡Empezar curso!</a>  
+                <div id="paypal-button"></div>
+<script src="https://www.paypalobjects.com/api/checkout.js"></script>
+<script>
+paypal.Button.render({
+  // Configure environment
+  env: 'sandbox',
+  client: {
+    sandbox: 'demo_sandbox_client_id',
+    production: 'demo_production_client_id'
+  },
+  // Customize button (optional)
+  locale: 'en_US',
+  style: {
+    size: 'small',
+    color: 'gold',
+    shape: 'pill',
+  },
+  // Set up a payment
+  payment: function (data, actions) {
+    return actions.payment.create({
+      transactions: [{
+        amount: {
+          total: '300.00',
+          currency: 'MXN',
+        details: {
+          subtotal: '258.62',
+          tax: '41.38',
+        }  
+        },
+      }]
+    });
+  },
+  // Execute the payment
+  onAuthorize: function (data, actions) {
+    return actions.payment.execute()
+      .then(function () {
+        // Show a confirmation message to the buyer
+        window.alert('¡Gracias por tu compra en Blended Learning!');
+      });
+  }
+}, '#paypal-button');
+</script>
               </div>
+       
+
             </div>
 
-          <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src=".../100px180/" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Liderazgo</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
+            <div class="card curso" style="width: 18rem;">
+              <img class="card-img-top" src="lead.png" alt="iconolider">
+              <div class="card-body">
+                <h5 class="card-title">Liderazgo <span class="badge badge-success">¡Gratis!</span> </h5>
+                <h6 class="card-subtitle mb-2 text-muted">Precio <strike>$300.00 MXN</strike></h6>
+                <p class="card-text">Donde sabrás que no es lo mismo dar órdenes que liderear a tu equipo. ¡Qué no te de miedo tomar las riendas!</p>
+                <a href="#" class="btn btn-primary">¡Empezar curso!</a>
+
               </div>
+            </div>
             
-          <div class="card" style="width: 18rem;">
-                  <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+          <div class="card curso" style="width: 18rem;">
+                  <img class="card-img-top" src="nego.png" alt="icononegociar">
                   <div class="card-body">
                     <h5 class="card-title">Negociación</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h6 class="card-subtitle mb-2 text-muted">Precio $300.00 MXN</h6>
+                    <p class="card-text">Conoce las estrategias para que las diferencias en intereses se conviertan en oportunidades para que todas las partes ganen.</p>
+                    <a href="#" class="btn btn-danger">Próximamente</a>
                   </div>
                 </div>
             
-          <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+          <div class="card curso" style="width: 18rem;">
+                    <img class="card-img-top" src="market.png" alt="iconomarket">
                     <div class="card-body">
                       <h5 class="card-title">Marketing Digital</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <h6 class="card-subtitle mb-2 text-muted">Precio $300.00 MXN</h6>
+                      <p class="card-text">Hoy en día nadie puede darse el lujo de no tener una presencia en línea. Conoce los coneptos básicos para planear campañas acordes a las necesidades de cada cliente.</p>
+                      <a href="#" class="btn btn-danger">Próximamente</a>
                     </div>
                   </div>
  
-          <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+          <div class="card curso" style="width: 18rem;">
+                <img class="card-img-top" src="mind.png" alt="iconomarket">
                 <div class="card-body">
                   <h5 class="card-title">Mindfulness</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h6 class="card-subtitle mb-2 text-muted">Precio $300.00 MXN</h6>
+                  <p class="card-text">No es solamente una palabra de moda. Es una tradición que se remonta al budismo y que va más allá de la meditación: es aprender a vivir el momento con tu atención plena.</p>
+                  <a href="#" class="btn btn-danger">Próximamente</a>
                 </div>
               </div>
 
-          <div class="card" style="width: 18rem;">
-                  <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+          <div class="card curso" style="width: 18rem;">
+                  <img class="card-img-top" src="data.png" alt="iconodata">
                   <div class="card-body">
                     <h5 class="card-title">Ciencia de Datos</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h6 class="card-subtitle mb-2 text-muted">Precio $300.00 MXN</h6>
+                    <p class="card-text">No es magia negra. Ni algo que sólo entienden los ingenieros y matemáticos. Es una disciplina que te permitirá tomar decisiones basadas en datos reales y no solamente tu intuición.</p>
+                    <a href="#" class="btn btn-danger">Próximamente</a>
                   </div>
                 </div>
           
-          <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+          <div class="card curso" style="width: 18rem;">
+                    <img class="card-img-top" src="critic.png" alt="iconocritico">
                     <div class="card-body">
                       <h5 class="card-title">Pensamiento crítico</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <h6 class="card-subtitle mb-2 text-muted">Precio $300.00 MXN</h6>
+                      <p class="card-text">En este sencillo curso aprenderás cómo distinguir entre hechos verificables y mentiras apantallantes. Este talento es esencial para navegar el mundo de información disponible en la internet.</p>
+                      <a href="#" class="btn btn-danger">Próximamente</a>
                     </div>
                   </div>
         
-          <div class="card" style="width: 18rem;">
-                      <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+          <div class="card curso" style="width: 18rem;">
+                      <img class="card-img-top" src="webd.png" alt="iconodevf">
                       <div class="card-body">
                         <h5 class="card-title">Desarrollo web Básico</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h6 class="card-subtitle mb-2 text-muted">Precio $300.00 MXN</h6>
+                        <p class="card-text">Aprende lenguajes básicos (html5, css y javascript) para poder crear tus propias páginas web en unas pocas semanas. ¡Sin miedo!</p>
+                        <a href="#" class="btn btn-danger">Próximamente</a>
                       </div>
                     </div>
 
@@ -115,9 +182,34 @@
     
                   </div>  
     </section>
+  
+    <nav class="footer navbar navbar-expand-lg navbar-light">
+      <div class="footer-txtbox collapse navbar-collapse" id="navbarNav">
+        <a class="navbar-brand" href="#">
+          <img src="../links/icon-blended.png"alt="">
+        </a>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="footertxt nav" href="#">© BLENDED LEARNING</a>
+          </li>
+          <li class="nav-item">
+            <a class="footertxt nav" href="#">Términos</a>
+          </li>
+          <li class="nav-item">
+            <a class="footertxt nav" href="#">Políticas de Privacidad</a>
+          </li>
+          <li class="nav-item">
+            <a class="footertxt nav" href="#">Cursos</a>
+          </li>
+          <li class="nav-item">
+            <a class="footertxt nav" href="#">Nosotros</a>
+          </li>
+        </ul>
+      </div>
+     </nav>  
 
-    <!-- Nuestro JS -->
-    <script src="main.js"></script>
+    <!-- El JS de esta página en específico -->
+    <script src="catmain.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
