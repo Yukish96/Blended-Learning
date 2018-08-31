@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Blended Learning</title>
+    <link rel="stylesheet" href="estilos.css">
+  </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <a class="navbar-brand" href="#">
+              <img src="logo-blended.png"alt="">
+            </a>
+            <div class="menu collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="limenu nav-item active">
+                  <a class="nav-link" href="#">Cursos <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="limenu nav-item">
+                  <a class="nav-link" href="#">Nosotros</a>
+                </li>
+                <button type="button" class="loginbutton btn btn-outline-secondary">Login</button>
+                <button type="button" class="registratebutton btn btn-secondary">Regístrate</button>
+              </ul>
+            </div>
+           </nav>
+    </header>
+    <main>
+      <div class="background">
+        <!-- Esto es un background -->
+          <img src="fondo.jpg" class="create img-fluid" alt="Responsive image">
+
+      <!-- Aquí empieza el modal 1 -->
+      <!-- Modal -->
+<div class="modal fade" id="exampleModalLong1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Hard skills</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h2>
+              Te ofrecemos cursos de los temas más innovadores en la industria.
+          </h2>
+          <p>
+            - Programación:
+            Haz la página de Internet que siempre has deseado.
+          </p>
+          <p>
+            - Marketing Digital:
+            Aprende a hacer un plan digital para obtener clientes en el mundo digital.
+          </p>
+          <p>
+             - UX:
+              Haz que tus clientes tengan la mejor experiencia en tu sector.
+          </p>
+          <p>
+            -Emprendimiento:
+            Obtén las habilidades que necesitas para lanzar el negocio de tus sueños.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Aquí termina modal 1 -->
+  <!-- Aquí empieza modal 2 -->
+  <!-- Modal -->
+<div class="modal fade" id="exampleModalLong2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Soft skills</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+
+            <p>
+            - Liderazgo:
+            Aprende a resolver conflictos y manejar equipos de manera humana y eficiente.
+          </p>
+            
+          <p>
+            - Negociación:
+            Desarrolla las habilidades para que ambas partes ganen en una negociación.
+          </p>
+            
+          <p>
+            - Mindfulness:
+            Toma las mejores decisiones en tu negocio y en tu vida personal.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="soft_button btn btn-secondary" data-dismiss="modal">Close</button>
+          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Aquí termina modal 2 -->
+  <!-- Comienzan tarjetas -->
+      <div class="cuerpo">
+          <div class="cursos row tarjetas">
+              <div class="col-sm-6">
+                <div class="card hard">
+                  <div class="card-body">
+                    <h5 class="card-title hard_title">Hard skills</h5>
+                    <p class="hard_text">¡Obtén las habilidades que necesitas para que las empresas más innovadoras se fijen en ti!</p>
+                    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                    <!-- Button trigger modal -->
+<button type="button" class="hard_button btn btn-primary" data-toggle="modal" data-target="#exampleModalLong1">
+    Hard skills
+  </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="card soft">
+                  <div class="card-body">
+                    <h5 class="card-title soft_title">Soft skills</h5>
+                    <p class="card-text"> La inteligencia emocional es más que una hermosa cualidad, las empresas más famosas buscan personas con habilidades suaves.</p>
+                    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary soft_button" data-toggle="modal" data-target="#exampleModalLong2">
+    Soft skills
+  </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+<!-- terminan tarjetas -->
+<!-- comienza registro -->
+            <div class="contenedor">
+                <h1 class="titulo col-4 offset-4">¡Regístrate ahora!</h1>
+                <div class ="registro col-4 offset-4">
+                  <form>
+                    <!-- <div class="form-group">
+                      <label for="exampleInputEmail1">Nombre</label>
+                      <input type="name" class="form-control" id="nombreAlumno" placeholder="Escribe tu Nombre">
+                    </div> -->
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Correo electrónico</label>
+                      <input type="email" class="form-control" id="correoAlumno" aria-describedby="emailHelp" placeholder="Correo electrónico">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Contraseña</label>
+                      <input type="password" class="form-control" id="passAlumno" placeholder="Contraseña">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Confirma tu contraseña</label>
+                      <input type="password" class="form-control" id="pass2Alumno" placeholder="Confirma tu contraseña">
+                    </div>
+                    <!-- <div class="form-group">
+                      <label for="exampleInputEmail1">País</label>
+                      <input type="pais" class="form-control" id="paisAlumno" placeholder="País">
+                    </div> -->
+                    <div class="form-group form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Acepto Términos y Condiciones</label>
+                    </div>
+                    <button type="submit" class="inscribeme btn btn-primary col-4 offset-4" id="inscribeme" href="bienvenido.html">Inscríbeme</button>
+                  </form>
+                </div>
+              </div>
+
+
+      </div>
+    </div>
+    
+<!-- termina registro -->
+    </main>
+    <footer>
+        <nav class="footer navbar navbar-expand-lg navbar-light">
+            <div class="footer-txtbox collapse navbar-collapse" id="navbarNav">
+              <a class="navbar-brand" href="#">
+                <img src="icon-blended.png"alt="">
+              </a>
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="footertxt nav" href="#">© BLENDED LEARNING</a>
+                </li>
+                <!-- <li class="nav-item">
+                  <a class="footertxt nav" href="#">Términos</a>
+                </li> -->
+                <li class="nav-item">
+                  <a class="footertxt nav" href="aviso.html">Políticas de Privacidad</a>
+                </li>
+                <li class="nav-item">
+                  <a class="footertxt nav" href="#">Cursos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="footertxt nav" href="#">Nosotros</a>
+                </li>
+              </ul>
+            </div>
+           </nav>
+    
+
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+    <script src="main.js"></script>
+  </body>
+</html>
