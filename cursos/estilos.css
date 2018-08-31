@@ -96,6 +96,30 @@ ul{
   background-color: #ceb1a5;
 }
 
+.container1{
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid red;
+}
+
+.container1-der{
+  width: 100%;
+  padding: 0px;
+  margin-left: 5px;
+  border: 1px solid green;
+}
+
+.container1-izq{
+  padding: 0px;
+  border: 1px solid red;
+}
+
+.video-img{
+  width: 100%;
+  height: 100%;
+}
 .course-carousel{
   height: 280px;
   font-size: 60px;
