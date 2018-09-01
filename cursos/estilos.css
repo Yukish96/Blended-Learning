@@ -99,36 +99,30 @@ ul{
 .container1{
   height: 400px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
-  border: 1px solid red;
-}
-
-.container1-der{
-  width: 100%;
-  padding: 0px;
-  margin-left: 5px;
-  border: 1px solid green;
+  /* border: 1px solid red; */
 }
 
 .container1-izq{
+  display: flex;
+  align-items: center;
   padding: 0px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
-.video-img{
-  width: 100%;
-  height: 100%;
-}
-.course-carousel{
-  height: 280px;
-  font-size: 60px;
-}
-
-.titulo{
-  color: white;
-  padding-top: 90px;
+.container1-der{
+  height: 300px;
+  margin-top: 50px;
   display: block;
+  justify-content: center;
+  font-size: 60px;
+  /* border: 1px solid green; */
+}
+
+.pdescripciontitulo{
+  margin: 1px;
+  color: white;
 }
 
 .icons-backround{
@@ -207,8 +201,32 @@ ul{
   background: #fc5642
   /* background: linear-gradient(top, rgb(252, 107, 69), rgb(252, 67, 70))  */
 }
+
+.temario-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+
+.temario-izq{
+  padding-left: 9px;
+  padding-right: 70px;
+  /* border: 1px solid black; */
+}
+
+.temario-der{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 60px;
+  padding-right: 9px;
+  /* border: 1px solid green; */
+}
+
 .temariobutton{
-  border: 1px solid: white;
+  height: 40px;
+  border: 1px solid white;
   color: white;
 }
 
@@ -216,7 +234,7 @@ ul{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height:50px;
+  height:60px;
   background-color: #ffe3e1;
 }
 
@@ -250,11 +268,11 @@ ul{
   width: 100%;
   text-align: left;
   align-items: center;
-  margin-top: 55px;
+  margin-top: 95px;
 }
 
 .img-mentor{
-  padding-top: 35px;
+  padding-top: 75px;
 }
 
 .container5-textright{
@@ -262,4 +280,43 @@ ul{
   text-align: left;
   align-items: center;
   margin-top: 110px;
+}
+
+/* ---------------- */
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
 }
