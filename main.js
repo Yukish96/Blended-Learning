@@ -19,6 +19,6 @@ const verif1 = ()=>{
   }
 }
 
-
 inscribir.addEventListener("click", verif1)
+
 
