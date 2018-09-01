@@ -18,7 +18,7 @@
     <header>
 
       <nav class="navbar navbar-expand-lg navbar-light bg-white">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="index.html">
         <img src="./links/logo-blended.png"alt="">
       </a>
       <div class="menu collapse navbar-collapse" id="navbarNav">
@@ -26,13 +26,13 @@
           <li class="limenu nav-item active">
             <a class="nav-link" href="#">Mis Cursos<span class="sr-only">(current)</span></a>
           </li>
-          <li class="limenu nav-item">
+<!--           <li class="limenu nav-item">
             <a class="nav-link" href="#">Otros Cursos</a>
-          </li>
+          </li> -->
           <li class="limenu nav-item">
             <a class="nav-link" href="#">Blog</a>
           </li>
-          <button type="button" class="logout btn btn-outline-secondary href="index.html">Logout</button>
+          <a href="index.html"><button type="button" class="logout btn btn-outline-secondary" >Logout</button></a>
 <!--           <button type="button" class="registratebutton btn btn-secondary">Regístrate</button> -->
         </ul>
       </div>
@@ -43,10 +43,10 @@
     <main>
 
       <!-- Section cards start -->
-      <section class="col-12 cards-container" id="modelos">
+      <section class="container1 col-12 cards-container" id="modelos">
         <div class="row d-flex justify-content-lg-center">
           <div class="card cards-custom" style="width: 18rem;">
-            <img class="card-img-top card-img-custom" src="http://www.orozcoyasociados.com.mx/wp-content/uploads/2016/08/lider.png" alt="Liderazgo img">
+            <img class="card-img-top card-img-custom" src="lead.png" alt="Liderazgo img">
             <div class="card-body">
               <h5 class="card-title">Liderazgo</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -55,18 +55,17 @@
               <li class="list-group-item">10 horas de video</li>
               <li class="list-group-item">2 Lecturas</li>
               <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+              <div class="progress-bar" role="progressbar" style="background-color: #fc4346; width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
               </div>
               <li class="list-group-item">Avance - 0%</li>
             </ul>
             <div class="card-body">
-              <a href="#" class="card-link">Curricula</a>
-              <a href="#" class="card-link">Continuar</a>
+              <a href="#" class="card-link"><button type="button" style="width: 150px;" class="registratebutton btn btn-secondary">Continuar</button></a>
             </div>
           </div>
 
           <div class="card cards-custom" style="width: 18rem;">
-            <img class="card-img-top" src="http://www.vidaemprendedora.com/wp-content/uploads/2016/03/emprendedor-social.png" alt="Emprendimiento img">
+            <img class="card-img-top" src="emprende.png" alt="Emprendimiento img">
             <div class="card-body card-img-custom">
               <h5 class="card-title">Emprendimiento</h5>
               <p class="card-text">Las bases para comenzar a emprender. Aprende de nuestros expertos y conoce su experiencia, donde fallaron y como lograron ser exitosos.</p>
@@ -74,16 +73,18 @@
             <ul class="list-group list-group-flush">
               <li class="list-group-item">25 horas de video</li>
               <li class="list-group-item">8 Lecturas</li>
+              <div class="progress">
+              <div class="progress-bar" role="progressbar" style="background-color: #fc4346; width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+              </div>              
               <li class="list-group-item">Avance 10%</li>
             </ul>
             <div class="card-body">
-              <a href="#" class="card-link">Curricula</a>
-              <a href="#" class="card-link">Continuar</a>
+              <a href="#" class="card-link"><button type="button" style="width: 150px;" class="registratebutton btn btn-secondary">Continuar</button></a>
             </div>
           </div>
 
           <div class="card cards-custom" style="width: 18rem;">
-            <img class="card-img-top card-img-custom" src="http://autoescuelascostaverde.com/wp-content/uploads/2016/10/Cursos.png" alt="Card image cap">
+            <img class="card-img-top card-img-custom" src="data.png" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Oferta educativa</h5>
               <p class="card-text">Revisa nuestra oferta educativa, cientos de cursos de hard y soft skills.</p>
@@ -94,7 +95,7 @@
               <li class="list-group-item">Vestibulum at eros</li>
             </ul>
             <div class="card-body">
-              <a href="#" class="card-link">Más cursos</a>
+              <a href="#" class="card-link"><button type="button" style="width: 150px;" class="registratebutton btn btn-secondary">Más cursos</button></a>
               <!-- <a href="#" class="card-link">xxx</a> -->
             </div>
           </div>
@@ -118,16 +119,13 @@
               <a class="footertxt nav" href="#">© BLENDED LEARNING</a>
             </li>
             <li class="nav-item">
-              <a class="footertxt nav" href="#">Términos</a>
+              <a class="footertxt nav" href="aviso.html">Políticas de Privacidad</a>
             </li>
             <li class="nav-item">
-              <a class="footertxt nav" href="#">Políticas de Privacidad</a>
+              <a class="footertxt nav" href="catalogo.html">Cursos</a>
             </li>
             <li class="nav-item">
-              <a class="footertxt nav" href="#">Cursos</a>
-            </li>
-            <li class="nav-item">
-              <a class="footertxt nav" href="#">Nosotros</a>
+              <a class="footertxt nav" href="nosotoros.html">Nosotros</a>
             </li>
           </ul>
         </div>
