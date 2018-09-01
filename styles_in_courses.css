@@ -1,0 +1,35 @@
+/*.contaimner-custom{
+
+}
+
+.titulo{
+	border: 1px solid red;
+}
+
+
+.cards{
+	border: 1px solid red;
+}*/
+
+.container1{
+	background-color: #f4f6f8
+}
+
+.carousel-inner-custom{
+	height: 500px;
+}
+
+
+.cards-custom{
+	padding-top: 50px;
+	margin: 15px;
+	margin-bottom: 80px;
+	margin-top: 70px;
+
+}
+
+.card-img-custom{
+/*	height: 20%;
+	padding: 15px !important;*/
+}
+
